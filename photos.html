@@ -53,12 +53,21 @@
     </div>
 </article>
 <aside>
-    <span class="asidetitle">cool buttons</span>
-    <img src="images/button1.png" width="200" style="margin-top: 20px;" id="button1">
-    <img src="images/button2.png" width="200" style="margin-top: 20px;">
-    <img src="images/button3.png" width="200" style="margin-top: 20px;">
-    <img src="images/button4.png" width="200" style="margin-top: 20px;">
-</aside>
+    <div id="disqus_thread"></div>
+    <script>
+        var disqus_config = function () {
+        this.page.url = "http://35.180.68.252/";  // Replace PAGE_URL with your page's canonical URL variable
+        this.page.identifier = "imnotadevbut_photos"; // Replace PAGE_IDENTIFIER with your page's unique identifier variable
+        };
+        (function() { // DON'T EDIT BELOW THIS LINE
+        var d = document, s = d.createElement('script');
+        s.src = 'https://imnotadevbut.disqus.com/embed.js';
+        s.setAttribute('data-timestamp', +new Date());
+        (d.head || d.body).appendChild(s);
+        })();
+    </script>
+    <noscript>Please enable JavaScript to view the <a href="https://disqus.com/?ref_noscript">comments powered by Disqus.</a></noscript>
+    </aside>
 </main>
 <footer>
     Made by Enora Nguyen Huu for <a href="https://apply.holbertonschool.com" target="_blank">Holberton School</a>.
