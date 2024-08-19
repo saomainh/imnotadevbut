@@ -1,4 +1,4 @@
-fetch('disqus.html')
+fetch('./disqus.html')
 .then(res => res.text())
 .then(text => {
     let old_element = document.querySelector("script#replace_with_disqus");
