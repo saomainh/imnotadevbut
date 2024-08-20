@@ -146,3 +146,62 @@ a:visited {
 .smallpreview {
     height: 202px;
 }
+
+
+/* POEM */
+.notepad {
+    background-color: rgb(221, 225, 230);
+    width: 400px;
+    height: 980px;
+    margin: auto;
+} 
+
+.grid-container {
+    display: grid;
+    padding-bottom: 5px;
+    width: 400px;
+    grid-template-columns: 9fr 1fr;
+}
+
+.notepad_title {
+    grid-column: 1;
+    margin-left: 5px;
+    margin-top: 5px;
+    font-size: 13px;
+}
+
+.notepad_xmark {
+    grid-column: 2;
+    background-color: #BD5B56;
+    text-align: center;
+    color: white;
+    height: 20px;
+    line-height: 25px;
+
+}
+
+.flex-container {
+    display: flex;
+    flex-wrap: nowrap;
+
+}
+.notepad_menu {
+    background-color: #daebfe; 
+    font-size: 13px; 
+    width: 392px; 
+    margin: auto; 
+    padding: 7px 0px; 
+    line-height: 7px; 
+    border: 1px solid rgb(120, 120, 120);
+}
+
+.notepad_text {
+    background-color:rgb(236, 238, 243); 
+    width: 392px; 
+    height: 927px; 
+    margin: auto; 
+    border: 1px solid rgb(75, 124, 184); 
+    white-space: pre-wrap;
+
+}
+
