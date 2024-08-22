@@ -1,4 +1,3 @@
-alert('nono');
 fetch('nav.html')
 // récupère le contenu envoyé par l'URL (promise)
 .then(res => res.text())
