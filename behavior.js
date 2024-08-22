@@ -7,9 +7,8 @@ document.addEventListener("DOMContentLoaded", function(event) {
             thumbnailElement.className = "smallpreview";
         }
       });
-
-      var button1 = document.getElementById("button1");
-      button1.addEventListener("click", function() {
-        alert('Hello!');
-      });
 });
+
+// utiliser [i] dans une boucle pour appliquer le fonctionnement à tous 
+// les éléments de la liste de getElementByClassName
+// ==> chercher alternative avec foreach
